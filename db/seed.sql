@@ -1,0 +1,83 @@
+USE employeesDB;
+
+INSERT INTO department (name)
+VALUES 
+("Engineering"),
+("Research & Development"),
+("Marketing"),
+("Sales"),
+("Accounts"),
+("People Operations"),
+("Legal"),
+("Security");
+
+INSERT INTO role (title, salary, departmentID)
+VALUES 
+("FE Software Engineer", 97000, 1), 
+("BE Software Engineer"97000, 1), 
+("Engineering Lead", 115000, 1), 
+("Engineering Manager", 125000, 1), 
+("R&D Engineer", 97000, 2), 
+("R&D Engineering Lead", 115000, 2), 
+("R&D Engineering Manager", 125000, 2), 
+("Marketing Associate", 70000, 3), 
+("Marketing Lead", 85000, 3), 
+("Marketing Manager", 110000, 3), 
+("Sales Associate", 65000, 4), 
+("Sales Lead", 85000, 4), 
+("Sales Manager", 110000, 4), 
+("Accountant", 95000, 5), 
+("Senior Accountant", 110000, 5), 
+("Executive Assistant", 95000, 6), 
+("Recruting Associate", 90000, 6), 
+("Recruiting Lead", 105000, 6), 
+("Recruiting Manager", 130000, 6), 
+("Staff Coordinator", 65000, 6), 
+("Training Manager", 100000, 6), 
+("Employee Relations Manager", 110000, 6), 
+("Legal Advisor"120000, 7), 
+("Senior Legal Advisor"130000, 7)
+("Security Operations Lead", 100000, 8);
+
+INSERT INTO employee (firstName, lastName, roleID, managerID)
+VALUES 
+("Viktor", "Andreas", 648, 148), 
+("Celestino", "Farmer", 903, NULL), 
+("Bernabé", "Sato", 828, NULL), 
+("Barbara", "Carman", 155, NULL), 
+("Lotte", "Ríos", 979, NULL), 
+("Theresa", "Negrini", 951, 436), 
+("Cahir", "Clery", 855, 944), 
+("Grigorios", "Eliot", 378, NULL),
+("Steffie", "Antonio", 492, 689), 
+("Staffan", "Breen", 647, NULL), 
+("Elena", "Rinn", 741, NULL), 
+("Kira", "Kilduff", 380, NULL), 
+("Lana", "Mingo", 908, NULL), 
+("Aurel", "Summers", 279, 773), 
+("Blas", "Scordato", 364, NULL), 
+("Aparajita", "Gorman", 850, NULL), 
+("Herbert", "Marley", 740, NULL), 
+("Christianne", "Márquez", 158, NULL), 
+("Tor", "Kerner", 295, 435), 
+("Norbert", "Austin", 703, 822), 
+("Anneka", "Wilmer", 284, NULL), 
+("Terentiy", "Costanzo", 600, NULL), 
+("Nikolai", "Leifsson", 638, NULL), 
+("Daniel", "Callaghan", 478, NULL), 
+("Prem", "García", 290, NULL), 
+("Olimpia", "Habich", 698, 622), 
+("Stan", "Almstedt", 795, NULL), 
+("Dan", "Molina", 918, NULL), 
+("Tobias", "McCormick", 899, NULL), 
+("Heiner", "Kjellsson", 448, 113), 
+("Vikram", "Anush", 577, NULL), 
+("Kaleb", "Hayley", 782, NULL), 
+("Nancy", "Lawrence", 223, NULL), 
+("Dyson", "Bove", 144, NULL), 
+("Kennedy", "Morse", 372, 546), 
+("Lonny", "Derrick", 954, NULL), 
+("Yukiko", "Hiroshi", 872, NULL), 
+("Wiola", "Senior", 529, NULL), 
+("Poldi", "Foster", 254, 932);
+
