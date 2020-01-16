@@ -1,0 +1,31 @@
+{
+  "name": "mysql_employee-tracker",
+  "version": "1.0.0",
+  "description": "A CLI application a business could use to view/edit their employees/roles/departments and their relationships",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalashnikoffee/MySQL_Employee-Tracker.git"
+  },
+  "keywords": [
+    "MySQL",
+    "Employee",
+    "Tracker",
+    "Node.js",
+    "Database",
+    "Inquirer"
+  ],
+  "author": "Lucas Coffee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalashnikoffee/MySQL_Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/kalashnikoffee/MySQL_Employee-Tracker#readme",
+  "dependencies": {
+    "inquirer": "^7.0.3",
+    "mysql": "^2.17.1"
+  }
+}
