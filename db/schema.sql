@@ -6,7 +6,7 @@ USE employeesDB;
 --employee table
 CREATE TABLE employee (
 id INT NOT NULL AUTO_INCREMENT,
-firstName VARCHAR(100)NOT NULL,
+firstName VARCHAR(100) NOT NULL,
 lastName VARCHAR(100) NOT NULL,
 roleID INT(100) NOT NULL,
 managerID INT(100) NULL,
