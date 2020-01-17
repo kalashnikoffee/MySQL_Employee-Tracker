@@ -11,10 +11,10 @@ VALUES
 ("Legal"),
 ("Security");
 
-INSERT INTO role (title, salary, departmentID)
+INSERT INTO role (title, salary, department_id)
 VALUES 
 ("FE Software Engineer", 97000, 1), 
-("BE Software Engineer"97000, 1), 
+("BE Software Engineer", 97000, 1), 
 ("Engineering Lead", 115000, 1), 
 ("Engineering Manager", 125000, 1), 
 ("R&D Engineer", 97000, 2), 
@@ -35,11 +35,11 @@ VALUES
 ("Staff Coordinator", 65000, 6), 
 ("Training Manager", 100000, 6), 
 ("Employee Relations Manager", 110000, 6), 
-("Legal Advisor"120000, 7), 
-("Senior Legal Advisor"130000, 7)
+("Legal Advisor", 120000, 7), 
+("Senior Legal Advisor", 130000, 7), 
 ("Security Operations Lead", 100000, 8);
 
-INSERT INTO employee (firstName, lastName, roleID, managerID)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
 ("Viktor", "Andreas", 648, 148), 
 ("Celestino", "Farmer", 903, NULL), 
