@@ -1,5 +1,5 @@
-const queries = require("queries.js");
-const inquirer = require("inquirer");
+// const queries = require("queries.js");
+// const inquirer = require("inquirer");
 
 //SET UP QUESTIONS/PROMPTS FOR USER IN CLI
 //------------------------------------------------------------------------
